@@ -41,7 +41,6 @@ def plot_forecast(final_year, companies, noise, show_legend, point_style):
         plt.legend(companies)
     return fig
 
-
 demo = gr.Interface(
     plot_forecast,
     [
